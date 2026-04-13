@@ -17,9 +17,9 @@ const Instalacao = () => {
       // Quando o timer terminar, ele executa esta ação:
       if (result.dismiss === Swal.DismissReason.timer) {
         
-        // Abre o link do seu Google Drive em uma nova aba
-        window.open('https://drive.google.com/file/d/1vAe6KBRlBZrVz5KfCcqYARZjcHs-9OML/view?usp=sharing', '_blank');
-
+        // 🔥 LINK ATUALIZADO AQUI
+    window.open('https://drive.google.com/uc?export=download&id=1phuIEC24mjEJEFs1z_v9TX33MiIgdJt3', '_blank');
+    
         // Mostra o alerta de sucesso atualizado
         Swal.fire({
           icon: 'info',
@@ -40,8 +40,12 @@ const Instalacao = () => {
       {/* Área de Download com SweetAlert2 conectada ao Google Drive */}
       <div className="card" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '20px', backgroundColor: '#F0FDF4', borderColor: '#BBF7D0' }}>
         <div>
-          <h2 style={{ marginTop: 0, marginBottom: '8px', color: '#166534' }}>Versão de Produção Atual <span className="badge" style={{ backgroundColor: '#DCFCE7', color: '#166534' }}>v1.2.4</span></h2>
-          <p style={{ margin: 0, color: '#15803D', fontSize: '14px' }}>Lançada em 15 de Abril de 2026. Sistema testado e homologado para terminais de operação intensiva.</p>
+          <h2 style={{ marginTop: 0, marginBottom: '8px', color: '#166534' }}>
+            Versão de Produção Atual <span className="badge" style={{ backgroundColor: '#DCFCE7', color: '#166534' }}>v1.2.4</span>
+          </h2>
+          <p style={{ margin: 0, color: '#15803D', fontSize: '14px' }}>
+            Lançada em 15 de Abril de 2026. Sistema testado e homologado para terminais de operação intensiva.
+          </p>
         </div>
         <button 
           className="primary-button" 
@@ -62,28 +66,36 @@ const Instalacao = () => {
               <div className="step-number">1</div>
               <div>
                 <h3 style={{ margin: '0 0 4px 0', fontSize: '15px' }}>Preparação do Windows</h3>
-                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '13px', lineHeight: '1.5' }}>Certifique-se de que o Windows Update está em dia. Desative temporariamente o SmartScreen do Windows Defender se ele bloquear o instalador desconhecido.</p>
+                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '13px', lineHeight: '1.5' }}>
+                  Certifique-se de que o Windows Update está em dia. Desative temporariamente o SmartScreen do Windows Defender se ele bloquear o instalador desconhecido.
+                </p>
               </div>
             </div>
             <div className="step-card">
               <div className="step-number">2</div>
               <div>
                 <h3 style={{ margin: '0 0 4px 0', fontSize: '15px' }}>Execução Silenciosa</h3>
-                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '13px', lineHeight: '1.5' }}>Execute o <code>LK-Setup.exe</code>. O Electron fará a instalação na pasta <code>AppData/Local/LK_Sistema</code>. Nenhum reinício é necessário.</p>
+                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '13px', lineHeight: '1.5' }}>
+                  Execute o <code>LK-Setup.exe</code>. O Electron fará a instalação na pasta <code>AppData/Local/LK_Sistema</code>. Nenhum reinício é necessário.
+                </p>
               </div>
             </div>
             <div className="step-card">
               <div className="step-number">3</div>
               <div>
                 <h3 style={{ margin: '0 0 4px 0', fontSize: '15px' }}>Criação do Banco Local</h3>
-                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '13px', lineHeight: '1.5' }}>Ao abrir pela primeira vez, o sistema criará o arquivo <code>database.sqlite</code>. Aguarde a tela de "Sincronização Inicial de Catálogo" chegar a 100%.</p>
+                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '13px', lineHeight: '1.5' }}>
+                  Ao abrir pela primeira vez, o sistema criará o arquivo <code>database.sqlite</code>. Aguarde a tela de "Sincronização Inicial de Catálogo" chegar a 100%.
+                </p>
               </div>
             </div>
             <div className="step-card">
               <div className="step-number">4</div>
               <div>
                 <h3 style={{ margin: '0 0 4px 0', fontSize: '15px' }}>Autenticação do Terminal</h3>
-                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '13px', lineHeight: '1.5' }}>Insira o Token da Loja (fornecido por Luan) para vincular este computador à rede principal do Mercado Irmãos L&K.</p>
+                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '13px', lineHeight: '1.5' }}>
+                  Insira o Token da Loja (fornecido por Luan) para vincular este computador à rede principal do Mercado Irmãos L&K.
+                </p>
               </div>
             </div>
           </div>
@@ -127,13 +139,17 @@ const Instalacao = () => {
             <h2 style={{ marginTop: 0 }}>Troubleshooting Avançado</h2>
             <div className="faq-item">
               <h3 className="faq-question">O banco de dados corrompeu após queda de energia.</h3>
-              <p className="faq-answer">O sistema possui auto-recovery. Vá na pasta do sistema, apague o arquivo <code>database.sqlite-shm</code> e <code>-wal</code> e abra como Administrador.</p>
+              <p className="faq-answer">
+                O sistema possui auto-recovery. Vá na pasta do sistema, apague o arquivo <code>database.sqlite-shm</code> e <code>-wal</code> e abra como Administrador.
+              </p>
             </div>
           </div>
 
           <div style={{ backgroundColor: 'var(--surface)', border: '1px solid var(--primary)', borderRadius: '12px', padding: '20px', textAlign: 'center' }}>
             <h3 style={{ margin: '0 0 10px 0', color: 'var(--text-main)' }}>Precisa de Ajuda Técnica?</h3>
-            <p style={{ margin: '0 0 15px 0', color: 'var(--text-muted)', fontSize: '14px' }}>Apenas caixas autorizados podem solicitar suporte avançado.</p>
+            <p style={{ margin: '0 0 15px 0', color: 'var(--text-muted)', fontSize: '14px' }}>
+              Apenas caixas autorizados podem solicitar suporte avançado.
+            </p>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '15px' }}>
               <span style={{ backgroundColor: '#F3F4F6', padding: '8px 16px', borderRadius: '6px', fontWeight: 'bold', fontSize: '14px' }}>Ramal: 400</span>
               <span style={{ backgroundColor: '#F3F4F6', padding: '8px 16px', borderRadius: '6px', fontWeight: 'bold', fontSize: '14px' }}>suporte@irmaoslk.local</span>
