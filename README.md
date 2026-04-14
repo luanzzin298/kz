@@ -72,10 +72,17 @@ Crie um arquivo .env:
 
 VITE_SUPABASE_URL=your_url
 VITE_SUPABASE_ANON_KEY=your_key
+
 ▶️ Executar
+
 React
+
 npm run dev
+
 Electron
+
 npm run electron
+
 Build
+
 npm run build
