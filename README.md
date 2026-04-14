@@ -48,6 +48,8 @@ LOJA-REACT-LK/
 ├── package.json
 ├── vite.config.js
 └── README.md
+
+
 ✨ Funcionalidades
 🛍️ Listagem de produtos
 ➕ Cadastro de produtos
@@ -56,3 +58,24 @@ LOJA-REACT-LK/
 🌐 Gerenciamento global com Context API
 ☁️ Integração com Supabase
 🖥️ Execução como aplicativo desktop
+
+
+⚙️ Como Rodar o Projeto
+📥 Clonar repositório
+git clone https://github.com/seu-usuario/LOJA-REACT-LK.git
+cd LOJA-REACT-LK
+📦 Instalar dependências
+npm install
+🔑 Variáveis de Ambiente
+
+Crie um arquivo .env:
+
+VITE_SUPABASE_URL=your_url
+VITE_SUPABASE_ANON_KEY=your_key
+▶️ Executar
+React
+npm run dev
+Electron
+npm run electron
+Build
+npm run build
