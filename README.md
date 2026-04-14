@@ -1,15 +1,13 @@
-# React + Vite
-
 🛒 LOJA-REACT-LK
 
-Aplicação de loja virtual desenvolvida com React + Vite + Electron, com sistema de carrinho, autenticação e integração com banco de dados via Supabase.
+Aplicação de loja virtual desktop desenvolvida com React + Vite + Electron, com sistema de carrinho, autenticação e integração com banco de dados via Supabase.
 
 🚀 Tecnologias Utilizadas
-⚛️ React
-⚡ Vite
-🖥️ Electron (app desktop)
-🔥 Supabase (backend / banco de dados)
-🎨 CSS
+⚛️ React — Interface da aplicação
+⚡ Vite — Build rápida e moderna
+🖥️ Electron — Transforma em app desktop
+🔥 Supabase — Backend e banco de dados
+🎨 CSS — Estilização
 📂 Estrutura do Projeto
 LOJA-REACT-LK/
 │
@@ -20,24 +18,24 @@ LOJA-REACT-LK/
 ├── public/              # Arquivos públicos
 │
 ├── src/
-│   ├── components/      # Componentes da aplicação
+│   ├── components/
 │   │   ├── Cart.jsx
 │   │   ├── Login.jsx
 │   │   ├── ProductForm.jsx
 │   │   ├── ProductList.jsx
 │   │
-│   ├── context/         # Context API
+│   ├── context/
 │   │   └── CartContext.jsx
 │   │
-│   ├── lib/             # Integrações externas
+│   ├── lib/
 │   │   └── supabase.js
 │   │
-│   ├── App.jsx          # Componente principal
-│   ├── main.jsx         # Entrada do React
-│   ├── main.js          # Entrada do Electron
-│   └── styles.css       # Estilos globais
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── main.js
+│   └── styles.css
 │
-├── .env                 # Variáveis de ambiente
+├── .env
 ├── index.html
 ├── package.json
 ├── vite.config.js
@@ -46,7 +44,7 @@ LOJA-REACT-LK/
 🛍️ Listagem de produtos
 ➕ Cadastro de produtos
 🛒 Carrinho de compras
-🔐 Sistema de login
-🔄 Gerenciamento global de estado com Context API
+🔐 Sistema de autenticação
+🌐 Gerenciamento global com Context API
 ☁️ Integração com Supabase
-🖥️ Execução como aplicativo desktop (Electron)
+🖥️ Execução como aplicativo desktop
