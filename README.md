@@ -1,14 +1,22 @@
-🛒 LOJA-REACT-LK
+# 🛒 LOJA-REACT-LK
 
-Aplicação de loja virtual desktop desenvolvida com React + Vite + Electron, com sistema de carrinho, autenticação e integração com banco de dados via Supabase.
+Aplicação de loja virtual desktop desenvolvida com **React + Vite + Electron**, com sistema de carrinho, autenticação e integração com banco de dados via **Supabase**.
 
-🚀 Tecnologias Utilizadas
-⚛️ React — Interface da aplicação
-⚡ Vite — Build rápida e moderna
-🖥️ Electron — Transforma em app desktop
-🔥 Supabase — Backend e banco de dados
-🎨 CSS — Estilização
-📂 Estrutura do Projeto
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- ⚛️ **React** — Interface da aplicação  
+- ⚡ **Vite** — Build rápida e moderna  
+- 🖥️ **Electron** — Transforma em app desktop  
+- 🔥 **Supabase** — Backend e banco de dados  
+- 🎨 **CSS** — Estilização  
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
 LOJA-REACT-LK/
 │
 ├── dist/                # Build do React
