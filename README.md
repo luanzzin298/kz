@@ -1,18 +1,52 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛒 LOJA-REACT-LK
 
-Currently, two official plugins are available:
+Aplicação de loja virtual desenvolvida com React + Vite + Electron, com sistema de carrinho, autenticação e integração com banco de dados via Supabase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Tecnologias Utilizadas
+⚛️ React
+⚡ Vite
+🖥️ Electron (app desktop)
+🔥 Supabase (backend / banco de dados)
+🎨 CSS
+📂 Estrutura do Projeto
+LOJA-REACT-LK/
+│
+├── dist/                # Build do React
+├── dist_electron/       # Build do Electron
+├── node_modules/        # Dependências
+├── out/                 # Saída de builds
+├── public/              # Arquivos públicos
+│
+├── src/
+│   ├── components/      # Componentes da aplicação
+│   │   ├── Cart.jsx
+│   │   ├── Login.jsx
+│   │   ├── ProductForm.jsx
+│   │   ├── ProductList.jsx
+│   │
+│   ├── context/         # Context API
+│   │   └── CartContext.jsx
+│   │
+│   ├── lib/             # Integrações externas
+│   │   └── supabase.js
+│   │
+│   ├── App.jsx          # Componente principal
+│   ├── main.jsx         # Entrada do React
+│   ├── main.js          # Entrada do Electron
+│   └── styles.css       # Estilos globais
+│
+├── .env                 # Variáveis de ambiente
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+✨ Funcionalidades
+🛍️ Listagem de produtos
+➕ Cadastro de produtos
+🛒 Carrinho de compras
+🔐 Sistema de login
+🔄 Gerenciamento global de estado com Context API
+☁️ Integração com Supabase
+🖥️ Execução como aplicativo desktop (Electron)
